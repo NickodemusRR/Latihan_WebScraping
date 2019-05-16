@@ -6,13 +6,13 @@ url = 'https://wikimon.net/Visual_List_of_Digimon'
 webpage = requests.get(url)
 soup = BeautifulSoup(webpage.content, 'html.parser')
 
-digimon = []
+digimon = []    # list untuk menampung hasil web scrap
 
 images = soup.find_all('img')
 for image in images:
     my_dict = {
         'nama': image.get('alt'),
-        'gambar': 'https://wikimon.net/images'+ image.get('src')
+        'gambar': 'https://wikimon.net'+ image.get('src')
     }
     digimon.append(my_dict)
 
