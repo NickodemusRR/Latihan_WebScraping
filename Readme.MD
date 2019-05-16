@@ -19,9 +19,22 @@ Import BeautifulSoup pada program python.
 from bs4 import BeautifulSoup
 ```
 
-## Update 1
-* _digimon.py_ berisi program python yang mengambil data dari web kemudian memasukkannya ke file csv dan mysql
+## Update 2
+Menambahkan file
+1. *rangers_series.py*
+2. *digimon.py*
+3. *digimon_csv_sql.py*
+Berisi contoh cara memasukkan hasil web scraping ke dalam file csv dan database mysql.
 
-### Contoh Penggunaan
-* _rangers_title.py_ => menampilkan judul-judul seri Power Rangers.
-* _pokemon.py_ => menampilkan id dan nama pokemon lalu memasukkannya ke dalam file csv.
+## Situs yang digunakan
+Situs-situs yang digunakan untuk latihan webscraping ini adalah:
+1. https://wikimon.net/Visual_List_of_Digimon --> digimon
+2. https://pokemondb.net/pokedex/national --> pokemon
+3. https://en.wikipedia.org/wiki/List_of_Power_Rangers_episodes --> power rangers
+
+### Contoh Penggunaan Web Scraping
+* *digimon.py* => mengambil nama dan link gambar digimon lalu memasukkanya ke dalam file csv dan database mysql
+* *digimon_csv_sql.py* => memasukan data ke database mysql dari file csv
+* *pokemon.py* => mengambil id dan nama pokemon lalu memasukkannya ke dalam file csv
+* *rangers_title.py* => mengambil judul-judul seri Power Rangers
+* *rangers_series*  => mengambil judul seri beserta tanggal tayang Power Ranges lalu memasukkannya ke dalam file csv
