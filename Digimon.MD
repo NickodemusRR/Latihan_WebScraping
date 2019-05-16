@@ -1,11 +1,12 @@
 # Membuat database digimon di MySQL
 
 ```bash
-mysql> use digimon;
 mysql> create database digimon;
 Query OK, 1 row affected (0.01 sec)
 
+mysql> use digimon;
 Database changed
+
 mysql> create table digimon(
     -> id int auto_increment,
     -> nama varchar(255),
