@@ -19,6 +19,9 @@ Import BeautifulSoup pada program python.
 from bs4 import BeautifulSoup
 ```
 
+## Update 1
+* _digimon.py_ berisi program python yang mengambil data dari web kemudian memasukkannya ke file csv dan mysql
+
 ### Contoh Penggunaan
 * _rangers_title.py_ => menampilkan judul-judul seri Power Rangers.
 * _pokemon.py_ => menampilkan id dan nama pokemon lalu memasukkannya ke dalam file csv.
